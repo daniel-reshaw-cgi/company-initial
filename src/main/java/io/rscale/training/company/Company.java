@@ -13,7 +13,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @Entity
-@EnableDiscoveryClient
 public class Company {
 
 	@Id
